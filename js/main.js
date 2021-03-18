@@ -26,7 +26,10 @@ $(document).ready(function(){
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mauris urna, scelerisque eu justo quis, tincidunt suscipit nisi. Integer ac vulputate libero. Cras commodo tincidunt augue, sit amet fringilla ante lacinia ut. Suspendisse viverra mi at mauris vestibulum, quis hendrerit ante feugiat. Maecenas tincidunt nunc dui, in ultricies neque tempus sed. Donec sed faucibus mi. In hac habitasse platea dictumst. Pellentesque lectus libero, convallis ut pretium quis, molestie eu neque. Duis vehicula consequat quam at gravida.",},
     {title: "El dolor en el Ipsum",
     date: new Date(),
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mauris urna, scelerisque eu justo quis, tincidunt suscipit nisi. Integer ac vulputate libero. Cras commodo tincidunt augue, sit amet fringilla ante lacinia ut. Suspendisse viverra mi at mauris vestibulum, quis hendrerit ante feugiat. Maecenas tincidunt nunc dui, in ultricies neque tempus sed. Donec sed faucibus mi. In hac habitasse platea dictumst. Pellentesque lectus libero, convallis ut pretium quis, molestie eu neque. Duis vehicula consequat quam at gravida.",}
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mauris urna, scelerisque eu justo quis, tincidunt suscipit nisi. Integer ac vulputate libero. Cras commodo tincidunt augue, sit amet fringilla ante lacinia ut. Suspendisse viverra mi at mauris vestibulum, quis hendrerit ante feugiat. Maecenas tincidunt nunc dui, in ultricies neque tempus sed. Donec sed faucibus mi. In hac habitasse platea dictumst. Pellentesque lectus libero, convallis ut pretium quis, molestie eu neque. Duis vehicula consequat quam at gravida.",},
+    {title: "Nuevo post desde Notebook",
+    date: new Date(),
+    content: "Hola, escribo esto desde la netbook, para implementar los cambios en el GitHub, y asi poder verlos desde otro computadora",}
   ];
 
 // Bucle para que se genere una plantilla en HTML con cada iteracion de los POSTS
