@@ -38,7 +38,7 @@
 #menu{
   font-family: Helvetica, Arial;
   background: #333;
-  widht: 100%;
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -98,7 +98,7 @@
   color: black;
   text-decoration: none;
   margin-top: 10px;
-  margin-bottom: : 20px;
+  margin-bottom: 20px;
   border-radius: 5px;
   text-align: center;
 }
@@ -269,7 +269,7 @@ form input[type="submit"]{
   margin-left: 50%;
   vertical-align: center;
   line-height: 60px;
-  cursor: wait;
+  cursor: pointer;
 }
 
 /*----------------------------FORMULARIO------------------*/
