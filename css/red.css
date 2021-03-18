@@ -1,0 +1,56 @@
+body{
+  background: url('../img/ocra.png');
+  background-attachment: fixed;
+}
+
+#logo{
+  background: #C06969;
+}
+
+#menu ul li:hover /*Con esto seleccionamos el efecto hover de cada LI*/{
+  background: #C06969;
+}
+
+.button-more{
+  background: #C06969;
+}
+
+.container{
+  background: #C06969;
+}
+
+
+
+form input[type="submit"]{
+  border: 2px solid #864949;
+  background: #C06969;
+}
+
+form input[type="submit"]:hover{
+  color: white;
+  background: #864949;
+}
+
+
+
+#reloj{
+  background: #C06969;
+}
+
+
+
+
+#form_name:hover{
+  transition: 100ms;
+  border-bottom: 3px solid #C06969;
+}
+
+#form_mail:hover{
+  transition: 100ms;
+  border-bottom: 3px solid #C06969;
+}
+
+#form_msj:hover{
+  transition: 100ms;
+  border-bottom: 3px solid #C06969;
+}

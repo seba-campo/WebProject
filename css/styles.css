@@ -1,0 +1,322 @@
+#{
+  margin: 0px;
+  padding: 0px;
+}
+
+.clearfix{
+  float: none;
+  clear: both;
+}
+
+
+
+#global{
+  width: 65%;
+  margin: 0px auto;
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 0px 2px #ccc;
+  border-radius: 5px;
+
+}
+
+#logo{
+  font-family: "Verdana", "Arial";
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+  width: 370px;
+  height: 80px;
+  float: left;
+  margin-bottom: 20px;
+  line-height: 4px;
+  border-radius: 5px;
+}
+
+#menu{
+  font-family: Helvetica, Arial;
+  background: #333;
+  widht: 100%;
+  margin-bottom: 20px;
+}
+
+#menu ul /*Lista dentro del menu*/{
+  line-height: 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+#menu ul li/*Cada objeto dentro de la lista*/{
+  height: 36px;
+  display: inline-block;
+  transition: all 300ms;
+}
+
+
+#menu a /*Cada link dentro de cada objeto*/{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 34px;
+}
+
+#posts{
+  width: 60%;
+  float:left;
+  font-family: Helvetica, Arial;
+}
+
+.post{
+  padding: 7px;
+}
+
+.post h2{
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.post .fecha{
+  display: block;
+  color: gray;
+  margin-top: 2px;
+}
+
+.post p{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+.button-more{
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: : 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container{
+  text-align: left;
+  padding-left: 15px;
+  height: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+#sidebar{
+  font-family: Helvetica, Arial;
+  width: 31%;
+  float: right;
+}
+
+#sidebar h4{
+  margin-top: 50px;
+  margin-bottom: 5px;
+  text-align: center;
+  line-height: 10px;
+  color: #333;
+  text-decoration: underline;
+}
+
+#sidebar img{
+  width: 90%;
+  margin-left: 16px;
+}
+
+#sidebar p{
+  font-size: 15px;
+  text-align: justify;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"]{
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  width: 80%;
+  margin-top: 3px;
+  margin-bottom: 10px;
+}
+
+label{
+  font-family: Helvetica, Arial;
+  color: black;
+}
+
+form input[type="submit"]{
+  font-family: Helvetica, Arial;
+  font-size: 15px;
+  border-radius: 20px;
+  width: 78px;
+  height: 45px;
+  cursor: pointer;
+  }
+
+  form input[type="submit"]:hover{
+    transition: 500ms;
+  }
+
+  /*----------------------------------------------------------------*/
+
+  footer{
+    font-family: Helvetica, Arial;
+    color: white;
+    height: 40px;
+    background: rgba(51, 51, 51, 0.70);
+    margin: 0px auto;
+    width: 65%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+  }
+
+/*------------------------------CARRUSEL--------------------------*/
+
+
+.bx-wrapper, .bx-viewport{
+  max-height: 210px !important;
+}
+
+/*---------------------------SELECTOR DE TEMAS--------------------*/
+
+#selector-theme{
+  position: fixed;
+  top: 30%;
+  height: 100px;
+  width: 50px;
+  float: left;
+  background: rgba(51, 51, 51, 0.70);
+}
+
+#toGreen,
+#toRed,
+#toBlue{
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+  display: block;
+  margin: 0px auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#toGreen{
+  background:  #7FB095;
+}
+
+#toRed{
+  background: #C06969;
+}
+
+#toBlue{
+  background: #64A8E0;
+}
+
+/*----------------------------SCROLL UP------------------------------------*/
+
+.subir{
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: right;
+}
+
+/*----------------------------USUARIO LOGUEADO-----------------------------*/
+.container-loged{
+  text-align: left;
+  padding-left: 15px;
+  height: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/*----------------------------BOX ACORDEON SOBRE MI-----------------------*/
+
+#box{
+  width: 60%;
+  float: left;
+  margin-top: 50px;
+}
+
+#acordeon{
+  margin-top: 20px;
+}
+
+/*----------------------------RELOJ-----------------------*/
+
+#reloj{
+  font-family: Helvetica, Arial;
+  font-size: 15px;
+  width: 100px;
+  height: 60px;
+  border-radius: 6px;
+  text-align: center;
+  margin-left: 50%;
+  vertical-align: center;
+  line-height: 60px;
+  cursor: wait;
+}
+
+/*----------------------------FORMULARIO------------------*/
+
+#title h2{
+  font-family: Helvetica, Arial;
+  font-size: 40px;
+  margin-left: 35%;
+  display: block;
+  color: #AAAAAA;
+}
+
+#title h2:hover{
+  transition: 200ms;
+  color: #ccc;
+}
+
+
+#form_contacto label{
+  font-family: Helvetica, Arial;
+  font-size: 20px;
+  color: #AAAAAA;
+  margin-right: 40px;
+}
+
+#form_name, #form_mail, #form_msj{
+  width: 550px;
+  border: 0;
+  border-radius: 3px;
+}
+
+#form_name{
+  margin-left: 5px;
+}
+#form_mail{
+  margin-left: 33px;
+}
+
+#submit{
+  margin-left: 45%;
+}
+
+/*----------------------------ERROR DE VALIDACION-----------*/
+
+.help-block.form-error{
+  width: auto;
+  display: block;
+  font-family: Helvetica, Arial;
+  border: 0;
+}

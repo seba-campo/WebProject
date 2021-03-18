@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Proyecto con JS</title>
+
+
+
+        <!--ESTILOS CSS-->
+        <link rel="stylesheet" type="text/css" href="css/styles.css"></link>
+        <link id="theme" rel="stylesheet" type="text/css" href="css/blue.css">
+
+        <!--JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <!--JQUERY UI-->
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css">
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+        <script type="text/javascript" src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+        <!--SLIDER DE FOTOS  BX SLIDER-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
+        <!--VALIDATOR jQUERY-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+        <!--JAVA SCRIPT-->
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript" src="js/contacto.js"></script>
+
+    </head>
+    <body>
+      <div id="selector-theme">
+          <div id="toGreen">
+          </div>
+          <div id="toRed">
+          </div>
+          <div id="toBlue">
+          </div>
+      </div>
+
+        <section id="global"> <!--Seccion general de la página-->
+          <!--Cabecera-->
+          <header>
+            <div id="logo"><h1>Proyecto JS</h1></div>
+
+            <div class="clearfix"><div>
+
+
+              <nav id="menu">
+                <ul>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="about.html">Sobre mí</a></li>
+                  <li><a href="reloj.html">Reloj</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+              </nav>
+            </header>
+
+          <!--Contenido-->
+          <div id="contenido">
+            <div id="contenedor">
+              <div id="title">
+                  <h2>CONTACTO</h2>
+              </div>
+              <form id="form_contacto" action="#" >
+                <p>
+                <label for="name">NOMBRE</label>
+                <input data-validation="alphanumeric" data-validation="required" type="text" name="name" id="form_name" class="formInput">
+                </p>
+                <p>
+                <label for="email">EMAIL</label>
+                <input data-validation="email" type="text" name="email" id="form_mail" class="formInput">
+                </p>
+                <p>
+                <label for="mensaje">MENSAJE</label>
+                <textarea data-validation="length" data-validation-length="min30" data-validation="required" name="mensaje" rows="8" cols="80" id="form_msj" class="formInput"></textarea>
+                </p>
+                <input type="submit" id="submit" value="Enviar">
+              </form>
+            </div>
+          </div>
+
+        </section>
+        <footer> <!--Seccion de pie de pagina-->
+            Web proyecto para implementación de conocimientos
+
+            <a href="#" class="subir">Ir arriba</a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+body{
+  background: url('../img/fondo2.png');
+  background-attachment: fixed;
+}
+
+#logo{
+  background: #64A8E0;
+}
+
+#menu ul li:hover /*Con esto seleccionamos el efecto hover de cada LI*/{
+  background: #64A8E0;
+}
+
+.button-more{
+  background: #64A8E0;
+}
+
+.container{
+  background: #64A8E0;
+}
+
+form input[type="submit"]{
+  border: 2px solid #4881B0;
+  background: #64A8E0;
+}
+form input[type="submit"]:hover{
+  color: white;
+  background: #4881B0;
+}
+
+
+
+#reloj{
+  background: #64A8E0;
+}
+
+
+
+#form_name:hover{
+  transition: 100ms;
+  border-bottom: 3px solid #64A8E0;
+}
+
+#form_mail:hover{
+  transition: 100ms;
+  border-bottom: 3px solid #64A8E0;
+}
+
+#form_msj:hover{
+  transition: 100ms;
+  border-bottom: 3px solid #64A8E0;
+}

@@ -1,0 +1,51 @@
+body{
+  background: url('../img/fondoGreen.png');
+  background-attachment: fixed;
+}
+
+#logo{
+  background: #7FB095;
+}
+
+#menu ul li:hover /*Con esto seleccionamos el efecto hover de cada LI*/{
+  background: #7FB095;
+}
+
+.button-more{
+  background: #7FB095;
+}
+
+.container{
+  background: #7FB095;
+}
+
+form input[type="submit"]{
+  border: 2px solid #3F584A;
+  background: #7FB095;
+}
+form input[type="submit"]:hover{
+  color: white;
+  background: #3F584A;
+}
+
+
+
+#reloj{
+  background: #7FB095;
+}
+
+
+#form_name:hover{
+  transition: 100ms;
+  border-bottom: 3px solid #7FB095;
+}
+
+#form_mail:hover{
+  transition: 100ms;
+  border-bottom: 3px solid #7FB095;
+}
+
+#form_msj:hover{
+  transition: 100ms;
+  border-bottom: 3px solid #7FB095;
+}
